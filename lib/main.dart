@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         primarySwatch: Colors.blue,
+        primaryColor: Colors.red,
         useMaterial3: true,
       ),
       home: ListaTarefaPage(),
